@@ -8,7 +8,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 public class RediSwaggerApplication {
-    static final Logger log = LoggerFactory.getLogger(RediSwaggerApplication.class);
+   public static final Logger log = LoggerFactory.getLogger(RediSwaggerApplication.class);
 
     public static void main(String[] args) {
         log.info("All done successfully!!");
